@@ -1,0 +1,95 @@
+/* Estilos para a área de login */
+
+/* Estilos para a barra de início */
+.Inicio {
+    background-color: #007bff; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+  }
+  
+  .InicioContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .InicioContent h2 {
+    margin: 0; /* Remover margem padrão */
+  }
+  
+  /* Estilos para a área de categorias */
+  .categoria {
+    padding: 20px; /* Espaçamento interno */
+  }
+  
+  /* Estilos para o contêiner do formulário */
+  .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    background-color: #f9f9f9; /* Cor de fundo do container */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    padding: 20px; /* Espaçamento interno */
+    max-width: 400px; /* Largura máxima do container */
+    width: 100%; /* Largura total */
+  }
+  
+  /* Estilos para o formulário de login */
+  .Informacoes {
+    margin-top: 20px; /* Espaçamento superior */
+  }
+  
+  .Login form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-control {
+    margin-bottom: 20px; /* Espaçamento inferior */
+  }
+  
+  .form-control p {
+    margin-bottom: 5px; /* Espaçamento inferior */
+  }
+  
+  .form-control input[type="text"],
+  .form-control input[type="password"] {
+    width: 100%; /* Largura total */
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda */
+    border-radius: 5px; /* Borda arredondada */
+  }
+  
+  .form-control input[type="submit"] {
+    width: 100%; /* Largura total */
+    padding: 10px; /* Espaçamento interno */
+    border: none; /* Remover borda */
+    border-radius: 5px; /* Borda arredondada */
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    cursor: pointer; /* Cursor do mouse */
+    transition: background-color 0.3s; /* Transição suave de cor de fundo */
+  }
+  
+  .form-control input[type="submit"]:hover {
+    background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+  }
+  
+  .error-message {
+    color: red; /* Cor do texto de erro */
+    margin-top: 5px; /* Espaçamento superior */
+  }
+  
+  /* Estilos para o link de cadastro */
+  .categoria h1 {
+    margin-top: 20px; /* Espaçamento superior */
+  }
+  
+  .categoria a {
+    display: block; /* Tornar o link um bloco */
+    margin-top: 10px; /* Espaçamento superior */
+  }

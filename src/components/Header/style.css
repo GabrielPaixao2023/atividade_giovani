@@ -1,0 +1,137 @@
+.logo img {
+    margin-left: 47px;
+    width: 50%;
+    margin-top: 30px;
+}
+
+header {
+    display: flex;
+}
+
+.cabecalho {
+    display: flex;
+    margin-left: 460px;
+    margin-top: 10px;
+    gap: 15px;
+
+}
+
+.cabecalho h5 {
+    font-size: large;
+}
+
+.primeira_section img {
+    width: 100%;
+}
+.segunda_section{
+    display: flex;
+}
+
+.texto {
+    
+    margin-left: 48px;
+    border: 1px outset rgba(0, 0, 0, 0.527);
+    background-color: rgba(0, 0, 0, 0.527);
+    text-align: center;
+    width: 50%;
+}
+
+.texto h2, p{
+   color: white;
+}
+
+.segunda_img img {
+    width: 100%;
+}
+
+/* Formulário */
+
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label{
+    color: #f5f5f5;
+    margin-bottom: 5px;
+}
+
+form input {
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+form input:focus{
+    border-radius: 16px;
+}
+
+form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+
+form textarea:focus{
+    border-radius: 16px;
+}
+
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid #f5f5f5;
+    color: #f5f5f5;
+    transition: all 1s;
+    margin-bottom: 20px;
+
+}
+
+form button:hover{
+    background: #f5f5f5;
+    color: #101026;
+    border-radius: 16px;
+}
+
+.formulario{
+    background-color: #1d1d2e;
+    width: 40%;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.info > div{
+  
+    font-size: 1.171875vw;
+    text-align: center;
+}
+
+.formulario {
+    margin: 0 auto;
+    margin-top: 20px;
+}

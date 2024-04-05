@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.sobre-nos {
+
+    display: flex;
+}
+
+.sobre-nos {
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: 3.4vw;
+
+}
+
+#titulo p{
+
+    font-size: 1.171875vw;
+    text-align: center;
+    padding: 0vw 0vw 0vw 4vw;
+    
+}
+
+#titulo p{
+    color: black;
+}
+
+.img-sobre {
+    justify-content: right;
+}
+
+#img-sobre img{
+
+    width: 40vw;
+    height: 45vw;
+    margin-right: 30px;
+
+}
+
+.depoimento{
+
+    background-color: #33343F;
+    color: white;
+    padding: 3.90625vw 0vw 3.90625vw;
+    display: flex;
+    margin-top: 6.25vw;
+    font-size: 1.171875vw;
+
+}
+
+.depoi1{
+
+    padding: 0vw 0vw 0vw 1.5625vw;
+
+}
+
+.ult-img img{
+
+    width: 98.65625vw;
+    height: 25.96875vw;
+    margin-top: 50px;
+}
+
+
