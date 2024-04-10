@@ -1,4 +1,15 @@
 {
-  "usuarios": [],
-  "clients": []
+  "usuarios": [
+    {
+      "id": "e991",
+      "nome": "Gabriel",
+      "senha": "1234"
+    },
+    {
+      "id": "3ee4",
+      "nome": "Gustavo",
+      "senha": "1234567"
+    }
+  ],
+  "clientes": []
 }

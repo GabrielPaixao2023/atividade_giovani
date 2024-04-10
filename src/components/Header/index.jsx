@@ -1,6 +1,6 @@
 import "./style.css";
 import imgPrincipal from '../../assets/img/primeiraImg_deploy.png'
-import Logo from '../../assets/img/Logo_deploy.png'
+import Logo from '../../assets/img/png.1.png'
 import segundaImg from '../../assets/img/segundaImg.jpg'
 
 
