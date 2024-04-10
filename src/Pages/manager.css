@@ -3,7 +3,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
+    background: #007bff;
   }
   
   form {
@@ -28,6 +29,7 @@
   
   .valuesP p {
     margin-bottom: 5px;
+    color: black;
   }
   
   .valuesP input[type="text"] {

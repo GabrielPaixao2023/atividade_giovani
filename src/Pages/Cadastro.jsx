@@ -89,7 +89,7 @@ export function Cadastro() {
                     />
                   </section>
  
-                  <button type="submit">CONTINUAR</button>
+                  <button type="submit">CADASTRAR</button>
                 </form>
               </div>
             </div>

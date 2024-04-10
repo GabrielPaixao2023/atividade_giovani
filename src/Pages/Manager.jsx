@@ -37,27 +37,33 @@ export function Manager() {
 
 
     return (
-        <main className="Inserir">
-            <form onSubmit={handleSubmitAdd}>
-                <div className="productValues">
-                    <h2>Adicionar Cliente</h2>
-                    <div className="valuesP">
-                        <p>Nome</p>
-                        <input type="text" name="nome" value={formDataAdd.nome} onChange={handleInputChangeAdd} required />
-                    </div>
-                    <div className="valuesP">
-                        <p>Descrição</p>
-                        <input type="text" name="descricao" value={formDataAdd.descricao} onChange={handleInputChangeAdd} required />
-                    </div>
-                    <div className="valuesP">
-                        <p>Imagem</p>
-                        <input type="text" name="img" value={formDataAdd.img} onChange={handleInputChangeAdd} required />
-                    </div>
-                    <button type="submit">Adicionar</button>
+        <main>
+            <section className="barraInicio">
+                <div className="barraInicioContent">
+                    <h2>Bem vindo a área de Clientes</h2>
                 </div>
-            </form>
-
-
+            </section>
+            <section className="Inserir">
+                <form onSubmit={handleSubmitAdd}>
+                    <div className="productValues">
+                        <h2>Adicionar Cliente</h2>
+                        <div className="valuesP">
+                            <p>Nome</p>
+                            <input type="text" name="nome" value={formDataAdd.nome} onChange={handleInputChangeAdd} required />
+                        </div>
+                        <div className="valuesP">
+                            <p>Descrição</p>
+                            <input type="text" name="descricao" value={formDataAdd.descricao} onChange={handleInputChangeAdd} required />
+                        </div>
+                        <div className="valuesP">
+                            <p>Imagem</p>
+                            <input type="text" name="img" value={formDataAdd.img} onChange={handleInputChangeAdd} required />
+                        </div>
+                        <button type="submit">Adicionar</button>
+                    </div>
+                </form>
+            </section>
         </main>
+
     );
 }

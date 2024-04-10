@@ -17,7 +17,7 @@ export function Home() {
 
             <section className="segunda_section">
 
-                <figure class="img-2">
+                <figure className="img-2">
                     <img src={segundaImg} alt="" width="500" height="500" />
                 </figure>
 
@@ -48,32 +48,32 @@ export function Home() {
             </section>
 
             <section className="terceira_section">
-                
+
                 <article className="contato">
 
                     <h2>ENTRE EM CONTATO</h2>
-                
-                <div className="formulario">
 
-                    <form action="https://api.staticforms.xyz/submit" onSubmit={redirecionar} method="post">
+                    <div className="formulario">
 
-                        <label>Nome</label>
-                        <input type="text" name="Nome" placeholder="Insira seu nome" autoComplete="off" required />
-                        <label>Email</label>
-                        <input type="text" name="Email" placeholder="Insira seu email" autoComplete="off" required />
-                        <label>Telfone</label>
-                        <input type="text" name="Telefone" placeholder="Insira seu telefone" autoComplete="off" required />
-                        <label>Assunto</label>
-                        <input type="text" name="Assunto" placeholder="Insira o assunto" autoComplete="off" required />
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
-                        <button type="submit">Enviar</button>
+                        <form action="https://api.staticforms.xyz/submit" onSubmit={redirecionar} method="post">
 
-                        <input type="hidden" name="accessKey" value="ed4520dd-f977-40d8-a51f-592ddba99f50" />
-                        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html" />
+                            <label>Nome</label>
+                            <input type="text" name="Nome" placeholder="Insira seu nome" autoComplete="off" required />
+                            <label>Email</label>
+                            <input type="text" name="Email" placeholder="Insira seu email" autoComplete="off" required />
+                            <label>Telfone</label>
+                            <input type="text" name="Telefone" placeholder="Insira seu telefone" autoComplete="off" required />
+                            <label>Assunto</label>
+                            <input type="text" name="Assunto" placeholder="Insira o assunto" autoComplete="off" required />
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+                            <button type="submit">Enviar</button>
 
-                    </form>
+                            <input type="hidden" name="accessKey" value="ed4520dd-f977-40d8-a51f-592ddba99f50" />
+                            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html" />
 
-                </div>
+                        </form>
+
+                    </div>
 
                 </article>
 

@@ -2,7 +2,7 @@
 
 /* Estilos para a barra de início */
 .Inicio {
-    background-color: #007bff; /* Cor de fundo */
+    background:#000000; /* Cor de fundo */
     color: #fff; /* Cor do texto */
     padding: 20px; /* Espaçamento interno */
   }
@@ -15,10 +15,12 @@
   
   .InicioContent h2 {
     margin: 0; /* Remover margem padrão */
+    color: white;
   }
   
   /* Estilos para a área de categorias */
   .categoria {
+    background: #007bff;
     padding: 20px; /* Espaçamento interno */
   }
   
@@ -54,6 +56,7 @@
   
   .form-control p {
     margin-bottom: 5px; /* Espaçamento inferior */
+    color: black;
   }
   
   .form-control input[type="text"],
@@ -72,7 +75,7 @@
     background-color: #007bff; /* Cor de fundo do botão */
     color: #fff; /* Cor do texto do botão */
     cursor: pointer; /* Cursor do mouse */
-    transition: background-color 0.3s; /* Transição suave de cor de fundo */
+    transition: background-color 0.7s; /* Transição suave de cor de fundo */
   }
   
   .form-control input[type="submit"]:hover {
@@ -86,10 +89,14 @@
   
   /* Estilos para o link de cadastro */
   .categoria h1 {
+    text-align: center;
     margin-top: 20px; /* Espaçamento superior */
+    color: white;
   }
   
   .categoria a {
+    color: white;
+    text-align: center;
     display: block; /* Tornar o link um bloco */
     margin-top: 10px; /* Espaçamento superior */
   }

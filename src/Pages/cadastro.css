@@ -1,6 +1,6 @@
 /* Estilos para a área de cadastro */
 .barraInicio {
-    background-color: #007bff; /* Cor de fundo da barra de início */
+    background-color: #000000; /* Cor de fundo da barra de início */
     color: #fff; /* Cor do texto na barra de início */
     padding: 20px; /* Espaçamento interno */
   }
@@ -13,10 +13,12 @@
   
   .barraInicioContent h2 {
     margin: 0; /* Remover margem padrão */
+    color: white;
   }
   
   .categorias {
     padding: 20px; /* Espaçamento interno */
+    background: #007bff;
   }
   
   .box-containerL {
@@ -80,9 +82,13 @@
   
   .categorias h1 {
     margin-top: 20px; /* Espaçamento superior */
+    text-align: center;
+    color: white;
   }
   
   .categorias a {
     display: block; /* Tornar o link um bloco */
     margin-top: 10px; /* Espaçamento superior */
+    text-align: center;
+    color: white;
   }

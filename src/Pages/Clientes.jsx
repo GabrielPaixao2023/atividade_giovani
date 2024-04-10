@@ -42,52 +42,13 @@ export function Clientes() {
 
                 <section className='pessoas'>
 
-                    <div id='pessoa1'>
-
-                        <img src={primeiraPessoa} alt="" />
-
-                        <p>
-                            M. JONAS <br />
-                            CLIENTE 1
-                        </p>
-
-                    </div>
-
-                    <div id='pessoa2'>
-
-                        <img src={segundaPessoa} alt="" />
-
-                        <p>
-
-                            C. MARANHÃO <br />
-                            CLIENTE 2
-
-                        </p>
-
-                    </div>
-
-                    <div id='pessoa3'>
-
-                        <img src={terceiraPessoa} alt="" />
-
-                        <p>
-                            R. GOMES <br />
-                            CLIENTE 2
-                        </p>
-
-                    </div>
-
-                    <div>
-                        {data.map((client) => (
-                            <div className="clientes" key={client.id}>
-                                <h1>{client.nome}</h1>
-                                <h2>{client.descricao}</h2>
-                                <img src={client.img} alt="" />
-                            </div>
-                        ))}
-
-                    </div>
-
+                    {data.map((client) => (
+                        <div className="clientes" key={client.id}>
+                            <h1>{client.nome}</h1>
+                            <h2>{client.descricao}</h2>
+                            <img src={client.img} alt="" />
+                        </div>
+                    ))}
 
                 </section>
 

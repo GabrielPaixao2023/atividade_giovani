@@ -74,10 +74,8 @@ export function Login() {
                         </div>
                     </div>
 
-
-
                 </div>
-
+                
                 <h1>Não tem uma conta ainda?</h1>
                 <a href="/signup">Cadaste-se aqui.</a>
             </section>

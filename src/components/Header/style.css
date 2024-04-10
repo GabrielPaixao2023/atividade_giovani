@@ -6,6 +6,7 @@
 
 header {
     display: flex;
+    align-items: center;
 }
 
 .cabecalho {
@@ -14,6 +15,13 @@ header {
     margin-top: 10px;
     gap: 15px;
 
+}
+
+.cabecalho a{
+    text-decoration: none;
+}
+.cabecalho a:hover{
+    color: rgb(0, 81, 255);
 }
 
 .cabecalho h5 {
