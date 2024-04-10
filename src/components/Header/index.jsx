@@ -13,7 +13,7 @@ export function Header() {
                     <img src={Logo} alt="" />
                 </div>
                 <div className="cabecalho">
-                    <a href="/">Página Principal</a>
+                    <a href="/">Home</a>
                     <a href="/Sobre">Sobre</a>
                     <a href="/Servicos">Serviços</a>
                     <a href="/Clientes">Clientes</a>
